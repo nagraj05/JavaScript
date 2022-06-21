@@ -72,3 +72,23 @@ console.log(que7.getDate())
 console.log(que7.getHours())
 console.log(que7.getMinutes())
 console.log(que7.getTime()/60)
+
+
+
+// Exercise 2
+
+let base = prompt("Enter base")
+let height = prompt("Enter Height")
+alert(0.5*base*height)
+
+
+let sideA = parseInt(prompt("a"))
+let sideB = parseInt(prompt ("b"))
+let sideC = parseInt(prompt ("c"))
+alert(`the result is ${sideA + sideB + sideC}`)
+
+
+let lenRec = parseInt(prompt("Length"))
+let widRec = parseInt(prompt("width"))
+alert (`The area is ${lenRec*widRec}`)
+alert(`the perimeter is ${2*(lenRec+widRec)}`)
