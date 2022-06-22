@@ -77,18 +77,46 @@ console.log(que7.getTime()/60)
 
 // Exercise 2
 
-let base = prompt("Enter base")
-let height = prompt("Enter Height")
-alert(0.5*base*height)
+// let base = prompt("Enter base")
+// let height = prompt("Enter Height")
+// alert(0.5*base*height)
 
 
-let sideA = parseInt(prompt("a"))
-let sideB = parseInt(prompt ("b"))
-let sideC = parseInt(prompt ("c"))
-alert(`the result is ${sideA + sideB + sideC}`)
+// let sideA = parseInt(prompt("a"))
+// let sideB = parseInt(prompt ("b"))
+// let sideC = parseInt(prompt ("c"))
+// alert(`the result is ${sideA + sideB + sideC}`)
 
 
-let lenRec = parseInt(prompt("Length"))
-let widRec = parseInt(prompt("width"))
-alert (`The area is ${lenRec*widRec}`)
-alert(`the perimeter is ${2*(lenRec+widRec)}`)
+// let lenRec = parseInt(prompt("Length"))
+// let widRec = parseInt(prompt("width"))
+// alert (`The area is ${lenRec*widRec}`)
+// alert(`the perimeter is ${2*(lenRec+widRec)}`)
+
+
+// const PI = 3.14
+// let radiusO = prompt("r")
+// alert (`area is ${PI*radiusO*radiusO}`)
+// alert(`circumference is ${2*PI*radiusO}`) 
+
+// let xSlope= prompt("x")
+// ySlope = 2*xSlope-2
+// alert(`slope is ${}`)
+
+// let x1 =2
+// x2 = 2
+// y1 = 6
+// y2 = 10
+// console.log((y2-y1)/(x2-x1))
+
+let birthYear = prompt("")
+let current = new Date()
+let cYear = current.getFullYear() - birthYear 
+// console.log(cYear)
+if (cYear > 18 ){
+    alert(`You are ${cYear}. You are old enough`)
+
+} 
+else{
+    alert(`You are ${cYear} . Not old enough. You will be allowed after ${18-cYear} years` )
+}
