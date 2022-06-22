@@ -125,44 +125,44 @@ switch (day){
 
 // L3 Q3
 
-let month = prompt("Enter Month")
-let monthu = month.toLowerCase()
-let monthl = month.toUpperCase()
-switch (month){
+let monthp = prompt("Enter Month")
+let monthu = monthp.toLowerCase()
+let monthl = monthp.toUpperCase()
+switch (monthp){
     case 'january':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break
     case 'february':
-        console.log(`${month} has 28 days`)
+        console.log(`${monthp} has 28 days`)
         break
         case 'march':
-            console.log(`${month} has 31 days`)
+            console.log(`${monthp} has 31 days`)
             break
             case 'april':
-        console.log(`${month} has 30 days`)
+        console.log(`${monthp} has 30 days`)
         break
         case 'may':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break
         case 'june':
-        console.log(`${month} has 30 days`)
+        console.log(`${monthp} has 30 days`)
         break
         case 'july':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break
         case 'august':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break
         case 'september':
-        console.log(`${month} has 30 days`)
+        console.log(`${monthp} has 30 days`)
         break
         case 'october':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break
         case 'november':
-        console.log(`${month} has 30 days`)
+        console.log(`${monthp} has 30 days`)
         break
         case 'december':
-        console.log(`${month} has 31 days`)
+        console.log(`${monthp} has 31 days`)
         break        
 }
