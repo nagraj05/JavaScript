@@ -98,27 +98,71 @@
 
 
 // L2 Q3
-let day = prompt("Enter Day")
-switch (day){
-    case 'sunday':
-        console.log(`${day} is a weekend`)
+// let day = prompt("Enter Day")
+// switch (day){
+//     case 'sunday':
+//         console.log(`${day} is a weekend`)
+//         break
+//     case 'monday':
+//         console.log(`${day} is a weekday`)
+//         break
+//     case 'tueday':
+//         console.log(`${day} is a weekday`)
+//         break
+//     case 'wednesday':
+//         console.log(`${day} is a weekday`)
+//         break
+//     case 'thursday':
+//         console.log(`${day} is a weekday`)
+//         break
+//     case 'friday':
+//         console.log(`${day} is a weekday`)
+//         break
+//     case 'saturday':
+//         console.log(`${day} is a weekend`)
+//         break                        
+// }
+
+// L3 Q3
+
+let month = prompt("Enter Month")
+let monthu = month.toLowerCase()
+let monthl = month.toUpperCase()
+switch (month){
+    case 'january':
+        console.log(`${month} has 31 days`)
         break
-    case 'monday':
-        console.log(`${day} is a weekday`)
+    case 'february':
+        console.log(`${month} has 28 days`)
         break
-    case 'tueday':
-        console.log(`${day} is a weekday`)
+        case 'march':
+            console.log(`${month} has 31 days`)
+            break
+            case 'april':
+        console.log(`${month} has 30 days`)
         break
-    case 'wednesday':
-        console.log(`${day} is a weekday`)
+        case 'may':
+        console.log(`${month} has 31 days`)
         break
-    case 'thursday':
-        console.log(`${day} is a weekday`)
+        case 'june':
+        console.log(`${month} has 30 days`)
         break
-    case 'friday':
-        console.log(`${day} is a weekday`)
+        case 'july':
+        console.log(`${month} has 31 days`)
         break
-    case 'saturday':
-        console.log(`${day} is a weekend`)
-        break                        
+        case 'august':
+        console.log(`${month} has 31 days`)
+        break
+        case 'september':
+        console.log(`${month} has 30 days`)
+        break
+        case 'october':
+        console.log(`${month} has 31 days`)
+        break
+        case 'november':
+        console.log(`${month} has 30 days`)
+        break
+        case 'december':
+        console.log(`${month} has 31 days`)
+        break        
 }
